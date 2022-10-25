@@ -1,0 +1,38 @@
+.cards{
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin-left: 10px;
+    width: 24%;
+    /* height: 10rem; */
+    padding: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    /* padding-bottom: 6rem; */
+    border-radius: 15px;
+    font-weight: bold;
+}
+.cards:hover{
+    background-color: gray;
+}
+.cards a{
+    text-decoration: none;
+    color: black;
+}
+.cards a:hover{
+    color: white;
+}
+select{
+    width: 50%;
+}
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .cards{
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+        /* height: 30%; */
+        margin-top: 10px;
+        padding: 1rem;
+    }
+  }
